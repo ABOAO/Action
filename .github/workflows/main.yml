@@ -3,7 +3,7 @@ name: Keep n8n Alive
 on:
   schedule:
  # 每天 UTC 時間 00:00 執行一次
-    - cron: '50 13 * * *'
+    - cron: '50 03 * * *'
 
 jobs:
   ping:
